@@ -10,9 +10,9 @@ A simple Backbone Boilerplate (in progress)
 > -
 
 #### view
-> Home View
-> Edit View
-> Show View
+> * Home View
+> * Edit View
+> * Show View
 
 #### router
 > Router
