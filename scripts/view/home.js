@@ -7,11 +7,13 @@ define([
   var HomeView = Backbone.View.extend({
 	  
     el: $('#container'),
+    
     render: function(){
-      this.$el.$('hi').text('Home');
+      this.$el.children('h1').text('Home');
     }
   
   });
+  
   return HomeView;
   
 });

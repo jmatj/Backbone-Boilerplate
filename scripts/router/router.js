@@ -5,7 +5,7 @@ define([
   'view/home',
   'view/show',
   'view/edit'
-], function($, _, Backbone, Session, HomeView, ShowView, EditView){
+], function($, _, Backbone, HomeView, ShowView, EditView){
 	
 	var Router = Backbone.Router.extend({
 	    routes: {
@@ -29,10 +29,14 @@ define([
 	    
 	    router.on('route:edit', function(){
 	    	console.log('edit');
+		    var editView = new EditView();
+		    editView.render();
 	    });
 	    
 	    router.on('route:show', function(){
 	    	console.log('show');
+		    var showView = new ShowView();
+		    showView.render();
 	    });
 	    
 	    Backbone.history.start();
