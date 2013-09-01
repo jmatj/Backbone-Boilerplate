@@ -3,21 +3,32 @@ Backbone-Boilerplate
 
 A simple Backbone Boilerplate (in progress)
 
-Index
------
 
-model
-_____
+#### content
 
-view
-____
+##### model
+> -
 
-router
-______
+#### view
+> Home View
+> Edit View
+> Show View
 
-app.js
-______
+#### router
+> Router
 
-main.js
-_______
+#### main.js
+> requirejs config
+
+#### app.js
+> initialize  the router
+
+
+#### libraries
+> * Backbone
+> * jQuery
+> * modernizr
+> * requirejs
+> * underscore
+
 
