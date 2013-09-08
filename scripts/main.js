@@ -1,8 +1,8 @@
 require.config({
 	paths : {
-		jquery : '../libs/jquery-1.8.3.min',
-		underscore : '../libs/underscore-min',
-		backbone : '../libs/backbone-min'
+		jquery : '//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min',
+		underscore : '//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.1/underscore-min',
+		backbone : '//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.0.0/backbone-min'
 	},
 	shim : {
 		underscore : {
